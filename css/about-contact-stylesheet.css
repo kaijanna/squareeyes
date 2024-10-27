@@ -34,3 +34,10 @@ input{
     padding-top: 2px;
 }
 
+
+@media (max-width:1200px){
+    .navbar{ flex-direction: column;}
+    .navlogo{ height: 50px; width: auto; ;}
+    .about{ flex-direction: column; padding-left: 10px;}
+    .contact-section{flex-direction: column; padding-left: 10px;}
+}

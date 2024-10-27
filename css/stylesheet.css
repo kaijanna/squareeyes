@@ -14,6 +14,7 @@ body { background-color: #151515;
  position: sticky;
  top: 0px;   
 }
+.nav-button-div{display: flex;flex-direction: row; gap: 10px;}
 .navlogo{ height: 70px; width: auto; ;}
 .cart{ padding-left: 40%; }
 
@@ -23,6 +24,7 @@ body { background-color: #151515;
   font-weight: bold;
   color: rgb(255, 255, 255);
   border-style: none;
+  width: 100px;
 }
 
 .navbutton:hover {
@@ -77,6 +79,7 @@ margin: 10px 0px;
 .topcatagories, .bottomcatagories{width: 100%; display: flex; flex-direction: row; justify-content: space-around;  }
 
 .headline-section{ font-weight: lighter; padding: 50px;}
+.headline-section-top{ font-weight: lighter; padding: 50px;}
 .keep-watching{ display: flex; flex-direction: row; padding-left: 50px; gap: 50px;}
 .keep-watching-container{
                          position: relative;
@@ -149,3 +152,27 @@ ul{ display: flex; flex-direction: row; gap: 100px;}
 .footerlink:hover{
   color: #D9420B;
 }
+
+
+@media (max-width:1200px){
+  .navbar{ flex-direction: column;}
+  .navlogo{ height: 50px; width: auto; ;}
+  .cart{ padding-left: 0%;  }
+  .keep-watching { visibility: hidden; display: none;}
+  .headline-section-top{ visibility: hidden; display: none;}
+  .movie-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;}
+  ul{gap: 10px;} 
+  .featuring-section{ flex-direction: column;} 
+  }
+
+  @media (max-width:650px){
+    .movie-container {
+      grid-template-columns: 1fr 1fr;}
+      .herosection{padding-left: 10px;}
+      .keep-watching{padding-left: 10px;}
+      .headline-section{padding-left: 10px;}
+      .movie-container{padding-left: 10px;}
+      .featuring-section{padding-left: 10px;}
+    
+  }
