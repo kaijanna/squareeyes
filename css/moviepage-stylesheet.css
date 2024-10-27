@@ -1,0 +1,16 @@
+
+
+
+
+.moviepage-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding-left: 50px;
+    padding-right: 50px;}
+
+ .moviepage-container img{
+        object-fit: cover;
+ }
+ .moviepage-container img:hover{
+    opacity: 50%;
+ }

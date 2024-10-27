@@ -1,0 +1,151 @@
+
+
+body { background-color: #151515;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{display: flex;
+    flex-direction: row;
+    
+  justify-content: space-between;
+ align-items: center;
+ padding: 10px 50px;
+ position: sticky;
+ top: 0px;   
+}
+.navlogo{ height: 70px; width: auto; ;}
+.cart{ padding-left: 40%; }
+
+.navbutton { 
+  background-color:  #151515;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-style: none;
+}
+
+.navbutton:hover {
+  color: #D9420B; background-color: #151515;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-weight: bold; font-size: medium;
+  width: 200px;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: rgb(255, 255, 255);
+}
+a:link {
+  text-decoration: none; 
+}
+.navlink{
+  color: white;
+}
+.navlink:hover{
+  color: #D9420B;
+}
+
+button:hover{color: white; background-color: #D9420B;font-weight: bold;
+             cursor: pointer;}
+
+.favheart{ width: 15px; height: auto;}
+
+.herotoptext{ font-weight: 100; padding-bottom: 50px;}
+
+.herosection{ padding-left: 50px;
+              padding-top: 50px;
+              position: relative;
+background-image:url(/images/alovestorydark.jpg);
+height: 400px;
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover;
+margin: 10px 0px;
+}
+
+
+.heroarticle{padding-bottom: 20px;}
+
+.categories-movies{display: flex; flex-direction: column; justify-items: center; justify-content: center; align-items: center; width: 100%; gap: 20px; padding-top: 20px;}
+.topcatagories, .bottomcatagories{width: 100%; display: flex; flex-direction: row; justify-content: space-around;  }
+
+.headline-section{ font-weight: lighter; padding: 50px;}
+.keep-watching{ display: flex; flex-direction: row; padding-left: 50px; gap: 50px;}
+.keep-watching-container{
+                         position: relative;
+                        text-align: center;
+                      }
+.keep-watching-container img{
+  object-fit: cover;
+}                      
+.playicon{ 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}  
+
+.movie-container{
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.movie{ 
+  width: 200px;
+  position: relative;
+  text-align: center;
+}
+.movie img{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.price{
+  position: absolute;
+  top: 20px;
+  left: 16px;
+}
+.movieheart{
+  position: absolute;
+  top: 20px;
+  right: 16px;
+}
+.title{
+  position: absolute;
+  bottom: 60px;
+  left: 16px;
+}
+
+.featuring-section{
+  display: flex; flex-direction: row;
+  padding-left: 50px; padding-right: 50px;
+  gap: 50px;
+}
+.featuring-section img{
+  object-fit: cover;
+}
+.featuring-text{
+  display: flex; flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px;
+}
+.infotext{ font-style: italic; font-weight: 100;}
+
+.footer-section{
+  display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center; padding: 50px;
+}
+ul{ display: flex; flex-direction: row; gap: 100px;}
+.sosialmedia{ display: flex; flex-direction: row; gap: 20px;}
+
+.footerlink{
+  color: white;
+}
+.footerlink:hover{
+  color: #D9420B;
+}
