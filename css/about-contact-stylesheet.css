@@ -12,32 +12,48 @@
 .about-text{
     max-width: 400px;
 }
+.filler-container{
+    background-color: #151515;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 10vh;
+   font-style: italic;
+   text-align: center;
+
+}
 
 .contact-section{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .contact-text{
-    max-width: 300px;
+    max-width: 400px;
+    line-height: 30px;
 }
 .form{
     display: flex;
     flex-direction: column;
     max-width: 200px;
-    
 }
 input{
-    padding-top: 2px;
+    margin: 8px 0;
 }
+textarea{
+    margin: 8px 0;
+    max-width: 400px;
+    resize: none;
+}
+
+
 
 
 @media (max-width:1200px){
     .navbar{ flex-direction: column;}
     .navlogo{ height: 50px; width: auto; ;}
-    .about{ flex-direction: column; padding-left: 10px;}
-    .contact-section{flex-direction: column; padding-left: 10px;}
+    .about{ flex-direction: column; padding-left: 10px; padding-top: 20px; padding-bottom: 20px;}
+    .contact-section{flex-direction: column; padding-left: 10px; padding-top: 20px; padding-bottom: 20px;}
 }

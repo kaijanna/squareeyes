@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/moviepage-stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about page</title>
@@ -13,18 +14,52 @@
         <nav>
             <div class="navbar">
                 <div><a href="index.html"> <img src="images/logo.png" class="navlogo"></a> </div>
-                   <div class="nav-button-div">
-                      <button class="navbutton"><a href="index.html" class="navlink">home</a></button>
-                      <button class="navbutton"><a href="about-us.html" class="navlink">about us</a></button>
-                      <button class="navbutton"><a href="contact-us.html" class="navlink">contact us</a></button>
-                      <button class="navbutton">my library</button>
-                  </div>
+                <div class="nav-button-div">
+                    <a href="index.html" class="navlink">home</a>
+                   <a href="about-us.html" class="navlink">about us</a>
+                   <a href="contact-us.html" class="navlink">contact us</a>
+                   <a href="contact-us.html" class="navlink">my library</a>
+                </div>
                    <div class="cart"> <img src="images/cart.png" class="navcart" style="height: 30px;"> </div>
           </div>
         </nav>
 
     </header>
     <main>
+        <div class="topp-h1"><h1>Check out</h1></div>
+        <section class="check-out-container">
+            <div class="billing-form"> 
+                <h2>Billing info</h2>
+                <form action="placeholder.php">
+                    <input type="text" id="name" name="name" placeholder="full name..">
+                    <input type="text" id="name" name="name" placeholder="address..">
+                    <input type="text" id="mail" name="mail" placeholder="email..">
+                </form>
+               <div class="check-box"> <label class="container">mastercard
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">visa
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+            </div>
+            <section class="product">
+                <h2>product info</h2>
+                <div>
+                    <img src="images/house warmig.jpg" alt="house" style="height: 100px; width: 70px;">
+                    <div class="top-product">
+                        <h4>House warming</h4>
+                        <h4>156,-</h4></div>
+                    <div class="line"></div>
+                    <div class="top-product"><h4>total</h4><h4>159,-</h4></div>
+                    <button><a href="success-page.html">place order</a></button>
+                </div>
+            </section>
+        </section>
+        
 
 
 
