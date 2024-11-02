@@ -149,7 +149,7 @@ margin: 10px 0px;
 .footer-section{
   display: flex; flex-direction: column; justify-content: center; justify-items: center; align-items: center; padding: 50px;
 }
-ul{ display: flex; flex-direction: row; gap: 100px;}
+ul{ display: flex; flex-direction: row; gap: 100px; padding-left: 0px;}
 .sosialmedia{ display: flex; flex-direction: row; gap: 20px;}
 
 .footerlink{
