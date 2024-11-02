@@ -39,6 +39,11 @@ button {
 a{
   color: black;
 }
+.goback{
+  color: white;
+  padding-left: 50px;
+  font-weight: lighter;
+}
 a:hover{
   color: rgb(255, 255, 255);
 }
@@ -76,7 +81,7 @@ margin: 10px 0px;
 }
 
 .headline-section{ font-weight: lighter; padding: 50px;}
-.headline-section-top{ font-weight: lighter; padding: 50px;}
+.headline-section-top{ font-weight: lighter; padding: 50px; color: white;}
 .keep-watching{ display: flex; flex-direction: row; padding-left: 50px; gap: 50px;}
 .keep-watching-container{
                          position: relative;
@@ -202,5 +207,8 @@ ul{ display: flex; flex-direction: row; gap: 100px;}
       .title{
         bottom: 20px;
         left: 6px;
+      }
+      .goback{
+        padding-left: 10px;
       }
     }
