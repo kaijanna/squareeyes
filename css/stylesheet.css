@@ -163,7 +163,7 @@ ul{ display: flex; flex-direction: row; gap: 100px;}
 @media (max-width:1200px){
   .navbar{ flex-direction: column;}
   .navlogo{ height: 50px; width: auto; ;}
-  .cart{ padding-left: 0%;  }
+  .cart{ padding-left: 0%; padding-top: 10px; }
   .keep-watching { visibility: hidden; display: none;}
   .headline-section-top{ visibility: hidden; display: none;}
   .movie-container {
@@ -172,6 +172,8 @@ ul{ display: flex; flex-direction: row; gap: 100px;}
   .featuring-section{ flex-direction: column;} 
   button{ width: 200px; font-size: 12px;}
   .nav-button-div{
+    padding-top: 10px;
+    padding-bottom: 10px;
     gap: 20px;
   }
   
@@ -183,7 +185,8 @@ ul{ display: flex; flex-direction: row; gap: 100px;}
     .movie-container {
       grid-template-columns: 1fr 1fr 1fr;}
     .herosection, .keep-watching, .headline-section, .movie-container,  .featuring-section {padding-left: 10px; padding-right: 10px;}
-    button{width: 100px;}  
+    button{width: 100px;} 
+    .headline-section{padding-top: 10px; padding-bottom: 10px;} 
     .featuring-image{
       height: 150px;
       width: 250px;}
